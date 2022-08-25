@@ -19,6 +19,7 @@ class _HomeScreenState extends State<HomeScreen> {
       child: Scaffold(
         backgroundColor: const Color(0xffE5E5E5),
         appBar: AppBar(
+          toolbarHeight: MediaQuery.of(context).size.height*0.09,
           elevation: 0,
           backgroundColor: Color(0xffE5E5E5),
           centerTitle: true,
