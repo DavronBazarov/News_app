@@ -10,6 +10,6 @@ class MyNews extends StatefulWidget {
 class _MyNewsState extends State<MyNews> {
   @override
   Widget build(BuildContext context) {
-    return Center(child: Text("My News"),);
+    return const Center(child: Text("Football"));
   }
 }

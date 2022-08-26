@@ -1,4 +1,6 @@
 import 'package:flutter/cupertino.dart';
+import 'package:flutter/material.dart';
+import 'package:news_app/screen/splash_screen.dart';
 
 class Live extends StatefulWidget {
   const Live({Key? key}) : super(key: key);
@@ -10,6 +12,6 @@ class Live extends StatefulWidget {
 class _LiveState extends State<Live> {
   @override
   Widget build(BuildContext context) {
-    return Center(child: Text("LIVE Page"),);
+    return Scaffold(body: Center(child: Text("Live"),),);
   }
 }

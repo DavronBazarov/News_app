@@ -1,15 +1,24 @@
-import 'package:flutter/cupertino.dart';
+import 'package:flutter/material.dart';
 
-class Popular extends StatefulWidget {
-  const Popular({Key? key}) : super(key: key);
 
-  @override
-  State<Popular> createState() => _PopularState();
+
+void main() {
+  runApp(MyAppUrl());
 }
 
-class _PopularState extends State<Popular> {
+class MyAppUrl extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return Center(child: Text("Popular Page"),);
+    return MaterialApp(
+      home: Scaffold(
+        appBar: AppBar(
+          title: const Text('UrlLauncher'),
+        ),
+        body: const Center(
+         child: Text("Politics"),
+          ),
+        ),
+    );
   }
+
 }
