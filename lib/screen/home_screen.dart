@@ -46,14 +46,14 @@ class _HomeScreenState extends State<HomeScreen> {
                 onPressed: () {},
                 icon: const Icon(Icons.more_vert, color: Colors.black,size: 28,)),
           ],
-   bottom: const TabBar(
-     indicatorColor: Colors.red,
-     tabs: [
-       Tab(child: Text("All"),),
-       Tab(child: Text("Football"),),
-       Tab(child: Text("Politics"),),
-       Tab(child: Text("LIve"),),
-   ],),
+          bottom: const TabBar(
+            indicatorColor: Colors.red,
+            tabs: [
+              Tab(child: Text("All"),),
+              Tab(child: Text("Football"),),
+              Tab(child: Text("Politics"),),
+              Tab(child: Text("LIve"),),
+            ],),
         ),
         body:  TabBarView(children: [
             All(),
